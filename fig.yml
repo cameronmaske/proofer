@@ -1,0 +1,7 @@
+builder:
+  build: .
+  ports:
+    - 35729:35729
+    - 8080:8080
+  volumes:
+    - .:/code
