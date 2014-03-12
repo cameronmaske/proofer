@@ -4,7 +4,17 @@ Proofer is a handy Chrome Extension that proof reads your writing. Helping you e
 
 **Demo: http://quick.as/noooil6l**
 
-## Current Limitations
+## Installation.
+[Follow the instructions on the release page](https://github.com/cameronmaske/proofer/releases/tag/0.0.1).
+
+## Usage.
+Hit `Ctrl + T` to have proofer read.
+
+If you have a selection already, proofer will just read that.
+
+Otherwise, it will automatically select and read the current sentence your cursor is in.
+
+## Current Limitations.
 * Not published on the Chrome Store (yet!).
 * Can't reconfigure the activation hotkey (currently Ctrl + T).
 * Doesn't currently work with Google Docs. Google Doc's custom rich text engine (called Kix) eschews the browser's native capabilities, including selection handling.
